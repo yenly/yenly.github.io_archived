@@ -1,14 +1,12 @@
 import React from 'react';
+import ProjectDetails from './project_details';
 
 const Projects = () => {
 
   return (
     <div>
       <h1>Projects</h1>
-      <ul>
-        <li>PetShare</li>
-        <li>Tribute to Zara Forman</li>
-      </ul>
+      <ProjectDetails />
     </div>
   );
 };
