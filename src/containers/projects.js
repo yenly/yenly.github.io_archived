@@ -5,10 +5,13 @@ import { connect } from 'react-redux';
 class Projects extends Component {
   renderList() {
     return this.props.projects.map((project) => {
-      <li key={project.name}>
-        <h3>{project.name}</h3>
-        <p>{project.description}</p>
-      </li>
+      return (
+        <li key={project.name}>
+          <h3>{project.name}</h3>
+          <p>{project.description}</p>
+          <p>{project.tech_stack}</p>
+        </li>
+      );
     });
   }
 
