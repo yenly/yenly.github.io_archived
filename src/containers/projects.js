@@ -6,9 +6,9 @@ class Projects extends Component {
   renderList() {
     return this.props.projects.map((project) => {
       return (
-        <li key={project.name}>
+        <div>
           <ProjectDetails project={project} />
-        </li>
+        </div>
       );
     });
   }
@@ -16,9 +16,8 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <ul>
+          <h1>Projects</h1>
           {this.renderList()}
-        </ul>
       </div>
     );
   };
