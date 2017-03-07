@@ -6,7 +6,7 @@ class Projects extends Component {
   renderList() {
     return this.props.projects.map((project) => {
       return (
-        <div>
+        <div key={project.name}>
           <ProjectDetails project={project} />
         </div>
       );

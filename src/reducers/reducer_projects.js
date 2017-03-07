@@ -1,3 +1,7 @@
+import zaria from '../images/tribute_zaria_app.gif';
+
+console.log(zaria);
+
 export default function() {
   return [
     {
@@ -14,7 +18,8 @@ export default function() {
       tech_stack: 'HTML, CSS',
       github_link: 'https://github.com/yenly/fcc_practice/tree/master/tribute_zaria',
       demo_link: 'https://yenly.github.io/fcc_practice/tribute_zaria/',
-      img_url: ''
+      img_url: `${zaria}`
+      // img_url: {zaria}
     }
   ]
 }
