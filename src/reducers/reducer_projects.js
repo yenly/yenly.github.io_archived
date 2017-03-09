@@ -1,6 +1,5 @@
 import zaria from '../images/tribute_zaria_app.gif';
-
-console.log(zaria);
+import petshare from '../images/petshare_app.gif';
 
 export default function() {
   return [
@@ -10,7 +9,7 @@ export default function() {
       tech_stack: 'Application: Python, Flask, Jinja, PostgresSQL, SQL/SQLAlchemy APIs: Google Map, Twilio Front-End: HTML/CSS, Bootstrap, JQuery, Angularjs, JavaScript, AJAX',
       github_link: 'https://github.com/yenly/hb_project_petshare',
       demo_link: '',
-      img_url: ''
+      img_url: `${petshare}`
     },
     {
       name: 'Tribue to Zaria',
@@ -19,7 +18,6 @@ export default function() {
       github_link: 'https://github.com/yenly/fcc_practice/tree/master/tribute_zaria',
       demo_link: 'https://yenly.github.io/fcc_practice/tribute_zaria/',
       img_url: `${zaria}`
-      // img_url: {zaria}
     }
   ]
 }

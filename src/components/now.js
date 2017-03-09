@@ -4,10 +4,12 @@ const Now = () => {
 
   return (
     <div>
-      <h2>What I'm doing now</h2>
+      <h3>What I'm doing now</h3>
 
-      <p>Focused on building career captial by participating in #100DaysOfCode and
-        keeping notes about it on my <a href="https://yenly.github.io/kodo_no_boken/">Kōdo No Bōken blog</a>.</p>
+      <p>
+        Focused on building career captial by participating in #100DaysOfCode Project and
+        keeping notes about it on my <a href="https://yenly.github.io/kodo_no_boken/">Kōdo No Bōken blog</a>.
+      </p>
 
       <p>On the job hunt seeking meaningful work at an inclusive, diverse, and highly collaborative company.</p>
 
