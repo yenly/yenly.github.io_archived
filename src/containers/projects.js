@@ -4,6 +4,7 @@ import ProjectDetails from './project_details';
 
 class Projects extends Component {
   renderList() {
+
     return this.props.projects.map((project) => {
       return (
         <div key={project.name}>
