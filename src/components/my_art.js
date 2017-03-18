@@ -5,7 +5,7 @@ const MyArt = () => {
     <div>
       <h2>My Art</h2>
       <ul>
-        <li>Photography</li>
+        <li><i className="fa fa-camera-retro" aria-hidden="true"></i> <a href="http://yen-ly.com/share/">Photography</a></li>
         <li>Ceramic Art</li>
       </ul>
     </div>

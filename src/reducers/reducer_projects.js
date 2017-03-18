@@ -1,5 +1,6 @@
 import zaria from '../images/tribute_zaria_app.gif';
 import petshare from '../images/petshare_app.gif';
+import random_quote from '../images/random_quote.png';
 
 export default function() {
   return [
@@ -17,7 +18,7 @@ export default function() {
       tech_stack: 'ES6, ReactJS, Firebase database, & React-Bootstrap ',
       github_link: 'https://github.com/yenly/random_quote',
       demo_link: 'https://yenly.github.io/random_quote/',
-      img_url: ``
+      img_url: `${random_quote}`
     },
     {
       name: 'Tribue to Zaria',
