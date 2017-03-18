@@ -17,6 +17,7 @@ const AboutMe = () => {
       <ul>
         {/* <li><Link to="/now">What am I doing now?</Link></li> */}
         <li><Link to="/projects" >Projects</Link></li>
+        <li><Link to="/my_art" >My Art</Link></li>
         {/* <li><a href="https://yenly.github.io/kodo_no_boken/" >Kōdo No Bōken</a></li> */}
       </ul>
     </div>

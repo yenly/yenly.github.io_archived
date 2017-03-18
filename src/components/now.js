@@ -8,7 +8,7 @@ const Now = () => {
 
       <p>
         Focused on building career captial by participating in #100DaysOfCode Project and
-        keeping notes about it on my <a href="https://yenly.github.io/kodo_no_boken/">Kōdo No Bōken blog</a>.
+        keeping notes about it on <a href="https://yenly.github.io/kodo_no_boken/">Kōdo No Bōken</a>. Kōdo No Bōken (コードの冒険) translates to Code Adventures. A simple blog to help me stay accountable to my learning and my progress in building projects.
       </p>
 
       <p>On the job hunt seeking meaningful work at an inclusive, diverse, and highly collaborative company.</p>
