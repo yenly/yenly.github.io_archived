@@ -18,6 +18,21 @@ const iconStyles = {
   marginRight: 24,
 };
 
+const toolbarStyles = {
+  opacity: 0.5,
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  width: '100vw',
+  zIndex: 1101,
+}
+
+const toolbarTitleStyles = {
+  fontWeight: 500,
+  fontFamily: 'Roboto Slab',
+  color: 'black',
+}
+
 class App extends Component {
 
   render() {
@@ -25,12 +40,12 @@ class App extends Component {
       <div>
         <MuiThemeProvider>
           <div>
-            <Toolbar>
+            <Toolbar style={toolbarStyles}>
               <ToolbarGroup>
                 <IconButton href="/"><FontIcon className="material-icons" style={iconStyles}>home</FontIcon></IconButton>
-
+                <ToolbarTitle text="Yenly Ma" style={toolbarTitleStyles} />
               </ToolbarGroup>
-              <ToolbarTitle text="Yenly Ma" />
+
               <ToolbarGroup>
                 <FontIcon className="muidocs-icon-custom-sort" />
                 <IconMenu
@@ -43,13 +58,14 @@ class App extends Component {
                   <MenuItem href="/" primaryText="About Yenly" />
                   <MenuItem href="/#/projects" primaryText="Projects" />
                   <MenuItem href="https://yenly.github.io/kodo_no_boken/" primaryText="Kōdo No Bōken" />
-                  <MenuItem href="/#/my_art" primaryText="My Art" />
+                  {/* <MenuItem href="/#/my_art" primaryText="My Art" /> */}
                 </IconMenu>
               </ToolbarGroup>
 
             </Toolbar>
             {this.props.children}
           </div>
+
         </MuiThemeProvider>
       </div>
     );

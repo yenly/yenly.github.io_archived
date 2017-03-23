@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import Drawer from 'material-ui/Drawer';
 // import Avatar from 'material-ui/Avatar';
 import MenuItem from 'material-ui/MenuItem';
+import AppBar from 'material-ui/AppBar';
+import FontIcon from 'material-ui/FontIcon';
+import IconButton from 'material-ui/IconButton';
+
+const iconStyles = {
+  marginRight: 24,
+};
 
 class Sidebar extends Component {
   constructor(props) {
@@ -16,12 +23,16 @@ class Sidebar extends Component {
   render() {
     return (
       <div>
+
         <Drawer
           width={280}
           open={this.state.open}
-          docked={false}
+          docked={true}
           onRequestChange={(open) => this.setState({open})}
         >
+          <AppBar
+            title="Yenly Ma"
+            iconElementLeft={<IconButton><FontIcon className="material-icons" style={iconStyles}>home</FontIcon></IconButton>} />
           <MenuItem onTouchTap={this.handleClose}>Projects</MenuItem>
           <MenuItem onTouchTap={this.handleClose}>Kodo No Boken</MenuItem>
           <MenuItem onTouchTap={this.handleClose}>Art</MenuItem>

@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ProjectDetails from './project_details';
+import bkgdLandsEnd from '../images/landsend.jpg';
+
 
 class Projects extends Component {
+  constructor() {
+    super();
+    document.body.style.backgroundImage = `url(${bkgdLandsEnd})`;
+  }
+
   renderList() {
 
     return this.props.projects.map((project) => {
@@ -16,7 +23,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div>
+      <div className="cardContainer">
           <h1>Projects</h1>
           {this.renderList()}
       </div>
