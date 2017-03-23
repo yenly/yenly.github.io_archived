@@ -22,21 +22,16 @@ const avatarStyle = {
 const AboutMe = () => {
 
   return (
-    <div>
+    <div className="aboutContainer">
       <Paper style={paperProfileStyle} zDepth={3}>
-        <h1>Yenly Ma</h1>
         <Avatar src={yenProfilePic} style={avatarStyle} size={180} />
         <p>My name is Yenly (pronounced yen-lee). Former UI Developer transitioning to fulll stack Software Engineer.</p>
       </Paper>
 
-      <Now />
+      <Paper style={paperProfileStyle} zDepth={3}>
+        <Now />
+      </Paper>
 
-      <ul>
-        {/* <li><Link to="/now">What am I doing now?</Link></li> */}
-        <li><Link to="/projects" >Projects</Link></li>
-        <li><Link to="/my_art" >My Art</Link></li>
-        {/* <li><a href="https://yenly.github.io/kodo_no_boken/" >Kōdo No Bōken</a></li> */}
-      </ul>
     </div>
   );
 };

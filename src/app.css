@@ -1,4 +1,28 @@
-.container {
-  display: flex;
+body {
+  margin: 0;
   text-align: center;
+  background: url('./images/landsend.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  display: block;
+}
+
+.aboutContainer {
+  margin: 20px;
+  display: flex;
+  align-self: stretch;
+  justify-content: space-around;
+  /*background: url('./images/gokyotso.jpg') no-repeat center center fixed;
+  background-size: cover;*/
+}
+
+.cardContainer {
+  margin: 20px auto;
+  width: 600px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+
 }
