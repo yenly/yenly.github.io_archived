@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import '../app.css';
@@ -63,8 +64,8 @@ class App extends Component {
                     </IconButton>
                   }
                 >
-                  <MenuItem href="/" primaryText="About Yenly" />
-                  <MenuItem href="/#/projects" primaryText="Projects" />
+                  <MenuItem containerElement={<Link to="/" />} primaryText="About Yenly" />
+                  <MenuItem containerElement={<Link to="/projects" />} primaryText="Projects" />
                   <MenuItem href="https://yenly.github.io/kodo_no_boken/" primaryText="Kōdo No Bōken" />
                   {/* <MenuItem href="/#/my_art" primaryText="My Art" /> */}
                 </IconMenu>
