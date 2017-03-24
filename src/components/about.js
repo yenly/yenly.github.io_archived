@@ -21,7 +21,7 @@ const cardHeaderSubTitleStyle = {
 
 
 const AboutMe = () => {
-  document.body.style.backgroundImage = `url(${bkgdGokyoTso})`;
+  // document.body.style.backgroundImage = `url(${bkgdGokyoTso})`;
 
   return (
     <div className="aboutContainer">

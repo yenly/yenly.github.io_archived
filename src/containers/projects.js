@@ -7,7 +7,7 @@ import bkgdLandsEnd from '../images/landsend.jpg';
 class Projects extends Component {
   constructor() {
     super();
-    document.body.style.backgroundImage = `url(${bkgdLandsEnd})`;
+    // document.body.style.backgroundImage = `url(${bkgdLandsEnd})`;
   }
 
   renderList() {

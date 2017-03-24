@@ -20,12 +20,13 @@ const iconStyles = {
 };
 
 const toolbarStyles = {
-  opacity: 0.5,
+  opacity: 0.6,
   position: 'fixed',
   top: 0,
   left: 0,
   width: '100%',
   zIndex: 1101,
+  backgroundColor: '#9c92ac',
 }
 
 const toolbarTitleStyles = {
