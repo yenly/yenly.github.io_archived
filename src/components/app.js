@@ -70,7 +70,7 @@ class App extends Component {
                 >
                   <MenuItem containerElement={<Link to="/" />} primaryText="About Yenly" />
                   <MenuItem containerElement={<Link to="/projects" />} primaryText="Projects" />
-                  <MenuItem href="https://yenly.github.io/kodo_no_boken/" target="_blank" primaryText="Kōdo No Bōken" />
+                  <MenuItem href="/kodo_no_boken/" primaryText="Kōdo No Bōken" />
                   {/* <MenuItem href="/#/my_art" primaryText="My Art" /> */}
                 </IconMenu>
               </ToolbarGroup>
