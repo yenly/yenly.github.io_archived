@@ -23,7 +23,7 @@ const toolbarStyles = {
   position: 'fixed',
   top: 0,
   left: 0,
-  width: '100vw',
+  width: '100%',
   zIndex: 1101,
 }
 
@@ -47,7 +47,15 @@ class App extends Component {
               </ToolbarGroup>
 
               <ToolbarGroup>
-                <FontIcon className="muidocs-icon-custom-sort" />
+                <IconButton href="https://github.com/yenly" target="_blank">
+                  <FontIcon  className="fa fa-github fa-lg" />
+                </IconButton>
+                <IconButton href="https://www.linkedin.com/in/yenlyma" target="_blank">
+                  <FontIcon  className="fa fa-linkedin-square fa-lg" />
+                </IconButton>
+                <IconButton href="https://twitter.com/mindfullycrafts" target="_blank">
+                  <FontIcon  className="fa fa-twitter fa-lg" />
+                </IconButton>
                 <IconMenu
                   iconButtonElement={
                     <IconButton touch={true}>
