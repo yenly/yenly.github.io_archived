@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardMedia, CardText, CardActions, CardHeader } from 'material-ui/Card';
+import { Card, CardMedia, CardText, CardActions, CardTitle } from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
 import FontIcon from 'material-ui/FontIcon';
 
@@ -21,10 +21,10 @@ const ProjectDetails = ({project}) => {
   return (
     <div>
       <Card style={cardStyle} zDepth={2}>
-        <CardHeader title={project.name} />
         <CardMedia style={cardMediaStyle}>
           <img src={project.img_url} alt={project.name} />
         </CardMedia>
+        <CardTitle title={project.name} />
         <CardText>
           <p>{project.description}</p>
           <p><strong>Tech stack: </strong>{project.tech_stack}</p>
@@ -40,8 +40,6 @@ const ProjectDetails = ({project}) => {
         </CardActions>
       </Card>
     </div>
-
-
   );
 };
 

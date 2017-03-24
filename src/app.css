@@ -9,7 +9,7 @@ body {
   }
 
 h1, h2, h3 {
-  font-family: Roboto;
+  font-family: 'Roboto Slab';
   font-weight: 400;
 }
 
@@ -37,11 +37,11 @@ h1, h2, h3 {
 }
 
 .footer {
-  color: white;
   font-size: 0.8em;
   position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
   padding: 8px;
+  color: #616161;
 }

@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ProjectDetails from './project_details';
-import bkgdLandsEnd from '../images/landsend.jpg';
-
 
 class Projects extends Component {
-  constructor() {
-    super();
-    // document.body.style.backgroundImage = `url(${bkgdLandsEnd})`;
-  }
 
   renderList() {
 
