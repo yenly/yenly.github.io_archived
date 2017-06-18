@@ -7,13 +7,19 @@ const Now = () => {
       <h3>What I'm doing now</h3>
 
       <p>
-        Focused on building career captial by participating in #100DaysOfCode Project and
-        keeping notes about it on <a href="/kodo_no_boken/">Kōdo No Bōken</a>. Kōdo No Bōken (コードの冒険) translates to Code Adventures. A simple blog to help me stay accountable to my learning and my progress in building projects.
+        Transitioning into the next chapter in my career by joining a nonprofit in hopes of doing meaningful work.
+      </p>
+      <p>
+        Taking a pause in my #100DaysOfCode Project to plan out how to balance my focus on:
+        <ul>
+          <li>My learning (inside and outside my career).</li>
+          <li>Self-care strategies.</li>
+          <li>Personal connections with others.</li>
+          <li>Creative play and refinement in my art.</li>
+        </ul>
       </p>
 
-      <p>On the job hunt seeking meaningful work at an inclusive, diverse, and highly collaborative company. Interested in my potential? <i className="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:yencodes@gmail.com"> Say hello</a> and let's start a conversation.</p>
-
-      <small>Updated on March 1, 20017.</small>
+      <small>Updated on June 18, 2017. <a href="http://nownownow.com/about" target="_blank">Why now?</a></small>
     </div>
   );
 };
